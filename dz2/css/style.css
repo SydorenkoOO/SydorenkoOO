@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bor  {
+    border: 3px solid red;
+    margin: 10px;
+}
+.logo {
+    display: inline-block;
+}
+.menu {
+    display: inline;
+    text-align: center;
+    padding: 12px 50px 15px 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width:70px;
+    height: 70px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto;
+}
+.content {
+    padding: 50px;
+}
+.copyright {
+    text-align: center;
+}
+li {
+    display: inline;
+    padding: 10px;
+}

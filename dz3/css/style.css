@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    padding: 20px 50px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    border: 1px solid gray;
+}
+h1 {
+    font-family: Arial, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+}
+footer {
+    padding: 20px 50px;
+}
+.znizka {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    opacity: .3;
+    background: rgb(255, 0, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.foto {
+    width: 35%;
+    height: 35%;
+}
+.opys {
+    padding: 10px;
+}
+.tovar {
+    display: flex;
+    justify-content: center;
+}
+.sm {
+    height: 50px;
+    padding: 0px 10px;
+}
+.zzadu {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: flex-start;
+}

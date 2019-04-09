@@ -5,7 +5,7 @@
     transition: all .3s;
 }
 body {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
 }
 div {
@@ -47,7 +47,7 @@ footer {
     margin: -30px 0;
 }
 .tel {
-    width: 300px;
+    width: 100%;
     margin-right: 30px;
 }
 .foto {
@@ -75,11 +75,11 @@ footer {
         flex-direction: column;
     }
     .tel {
-        width: 250px;
+        max-width: 250px;
         margin: 0;
     }
     body {
-        width: 300px;
+        max-width: 300px;
         margin: 0 auto;
     }
 }

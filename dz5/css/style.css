@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*font-size: 100%;*/
+    /*font: inherit;*/
+    vertical-align: baseline;
+}
+ul {
+    list-style: none;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    /*line-height: 22px;*/
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: 0.5px;
+}
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 15px 0;
+    width: 100%;
+    z-index: 9997;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.logo {
+    width: 30%;
+    float: left;
+}
+.logo h1 a img {
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: 10px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 5px 12px;
+}
+nav ul li a {
+    font-size: 13px;
+    line-height: 24px;
+    color: #493dff;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+}
+nav ul li a:hover {
+    color: #00e0d0;
+    transition: all 0.5s;
+}
+.banner img {
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 670px;
+}
+.banner__text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+}
+.banner__text p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+}
+.banner__text h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 0.10px;
+    color: #fff;
+}
+.banner__text span.line {
+    width: 50px;
+    height: 1px;
+    background: #00e0d0;
+    display: inline-block;
+    margin:20px auto;
+}
+.banner__text a {
+    width: 120px;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    display: block;
+    margin: 40px auto;
+    padding: 8px 0;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.banner__text a:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}
